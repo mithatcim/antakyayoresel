@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Antakya Lezzet Sofrası iletişim sayfası. Lezzetler, rezervasyon talepleri ve görüşleriniz için bize ulaşın.">
+    <title>Antakya Lezzet Sofrası | Bize Ulaşın</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="Antakya Lezzet Sofrası anasayfa">
+                <span class="brand-mark">ALS</span>
+                <span>Antakya Lezzet Sofrası</span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" aria-label="Ana menü">
+                <a href="index.html">Anasayfa</a>
+                <a href="lezzetler.html">Lezzetler</a>
+                <a href="iletisim.html">İletişim</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero contact-hero">
+            <div class="container page-hero-inner">
+                <span class="section-kicker">Rezervasyon ve görüşleriniz</span>
+                <h1>Bize Ulaşın</h1>
+                <p>Lezzetlerimiz, rezervasyon talepleriniz ve görüşleriniz için formu doldurabilirsiniz.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-grid">
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-header">
+                        <span class="section-kicker">İletişim formu</span>
+                        <h2>Mesajınızı bırakın</h2>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fullName">Ad Soyad</label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Adınız ve soyadınız">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-posta</label>
+                        <input type="email" id="email" name="email" placeholder="info@ornek.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Konu</label>
+                        <input type="text" id="subject" name="subject" placeholder="Rezervasyon, görüş veya öneri">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mesaj</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Mesajınızı yazın"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary" type="submit">Gönder</button>
+                    <p class="form-message" id="formMessage" aria-live="polite"></p>
+                </form>
+
+                <aside class="contact-card" aria-label="İletişim bilgileri">
+                    <img src="./resimler/2.jpeg" alt="Servise hazır taş fırın lezzeti">
+                    <div class="contact-card-body">
+                        <span class="section-kicker">Antakya Lezzet Sofrası</span>
+                        <h2>Soframıza bekleriz</h2>
+                        <ul class="contact-list">
+                            <li>
+                                <strong>Adres</strong>
+                                <span>Antakya / Hatay</span>
+                            </li>
+                            <li>
+                                <strong>Telefon</strong>
+                                <a href="tel:03260000000">0326 000 00 00</a>
+                            </li>
+                            <li>
+                                <strong>E-posta</strong>
+                                <a href="mailto:info@antakyalezzetsofrasi.com">info@antakyalezzetsofrasi.com</a>
+                            </li>
+                            <li>
+                                <strong>Çalışma Saatleri</strong>
+                                <span>Her gün 10:00 - 22:00</span>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="cta-band">
+            <div class="container cta-inner">
+                <div>
+                    <span class="section-kicker">Menüden ilham alın</span>
+                    <h2>Soframızın öne çıkan tatlarını inceleyin</h2>
+                </div>
+                <a class="btn btn-primary" href="lezzetler.html">Lezzetlerimizi İnceleyin</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="footer-brand" href="index.html">Antakya Lezzet Sofrası</a>
+                <p>Hatay mutfağının geleneksel tatlarını modern sunumla buluşturan yöresel lezzet durağı.</p>
+            </div>
+            <div>
+                <h2>Hızlı Bağlantılar</h2>
+                <a href="index.html">Anasayfa</a>
+                <a href="lezzetler.html">Lezzetler</a>
+                <a href="iletisim.html">İletişim</a>
+            </div>
+            <div>
+                <h2>Lezzet Notu</h2>
+                <p>Taş fırın, meze ve yöresel tariflerin sıcak sofra kültürüyle buluştuğu özel lezzetler.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">© 2026 Antakya Lezzet Sofrası. Tüm hakları saklıdır.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

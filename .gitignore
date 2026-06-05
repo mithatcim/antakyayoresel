@@ -1,0 +1,15 @@
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Editör klasörleri
+.vscode/
+.idea/
+
+# Log ve geçici dosyalar
+*.log
+*.tmp
+*.temp
+
+# Vercel yerel ayarları
+.vercel/

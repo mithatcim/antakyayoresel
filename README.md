@@ -1,6 +1,6 @@
-# Antakya Lezzet Sofrası
+# LÜLÜ'NÜN MUTFAĞI
 
-Antakya Lezzet Sofrası, Hatay / Antakya yöresel yemeklerini tanıtan modern ve responsive bir restoran tanıtım sitesidir. Projede taş fırın lezzetleri, mezeler ve geleneksel Hatay mutfağı sıcak bir görsel dil ile sunulur.
+LÜLÜ'NÜN MUTFAĞI, Hatay / Antakya yöresel yemeklerini tanıtan modern ve responsive bir restoran tanıtım sitesidir. Projede taş fırın lezzetleri, mezeler ve geleneksel Hatay mutfağı sıcak bir görsel dil ile sunulur.
 
 ## Kullanılan Teknolojiler
 
